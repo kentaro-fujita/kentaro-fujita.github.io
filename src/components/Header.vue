@@ -85,7 +85,7 @@ h3 {
 /* スマートフォン */
 @media (max-width: 670px) {
   .top-wrapper {
-    padding: 3vh 0;
+    padding: 1vh 0;
     margin-top: $header-height_sp;
     background: linear-gradient(
       to bottom,

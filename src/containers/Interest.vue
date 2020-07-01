@@ -69,6 +69,14 @@ export default {
       padding: 5px 0;
       border-bottom: none;
     }
+    tr {
+      font-size: 15px;
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      height: auto;
+    }
   }
 }
 </style>

@@ -2,7 +2,7 @@
     <section id="blog" class="blog-wrapper">
         <pageTitle title="Blog" />
         <div class="box-wrapper">
-            <p>list of posts.</p>
+            <p>Under constrcution.</p>
         </div>
     </section>
 </template>

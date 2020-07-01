@@ -45,6 +45,7 @@ export default {
 .skills {
   @include box-wrapper;
   width: 100%;
+  -webkit-overflow-scrolling:touch;
 }
 ul {
   display: grid;

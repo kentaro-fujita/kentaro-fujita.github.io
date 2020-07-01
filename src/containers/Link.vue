@@ -3,15 +3,15 @@
     <pageTitle title="Link" />
     <div class="box-wrapper">
       <table>
-          <tbody>
-          <th v-for="(contact, index) in contacts" :key="index">
-            <tr>
-              <a :href="contact.url" target="_blank" rel="noopener noreferrer">
-                <img :src="contact.img" width="150"/>
-              </a>
-            </tr>
-          </th>
-          </tbody>
+        <tbody>
+        <th v-for="(contact, index) in contacts" :key="index">
+          <tr>
+            <a :href="contact.url" target="_blank" rel="noopener noreferrer">
+              <img :src="contact.img" width="150"/>
+            </a>
+          </tr>
+        </th>
+        </tbody>
       </table>
     </div>
   </section>
@@ -71,7 +71,7 @@ export default {
     padding: 5px 8px 5px 0;
   }
   th {
-    border-spacing: 20px 0px;
+    border-spacing: 10px 0px;
   }
 }
 /*スマートフォン*/
@@ -84,6 +84,14 @@ export default {
       padding: 5px 0;
       border-bottom: none;
     }
+  }
+  tr {
+    font-size: 15px;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
   }
 }
 </style>

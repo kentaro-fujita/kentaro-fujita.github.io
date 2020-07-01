@@ -22,7 +22,7 @@ export default {
   font-weight: normal;
   color: $text-color;
   font-size: 40px;
-  margin: 20px 5%;
+  margin: 10px 5%;
   top: 50px;
 }
 .title:after {
@@ -33,7 +33,7 @@ export default {
 }
 @media (max-width: 670px) {
   .title {
-    margin: 20px 10vw;
+    margin: 10px 10vw;
     font-size: 32px;
   }
 }

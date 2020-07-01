@@ -2,21 +2,8 @@
   <section id="about" class="about-wrapper">
     <pageTitle title="About" />
     <div class="box-wrapper">
-      <table>
-        <tbody>
-          <tr v-for="(contact, index) in contacts" :key="index">
-            <th>{{ contact.key }}</th>
-            <td v-if="contact.url" class="last-td">
-              <a :href="contact.url" target="_blank" rel="noopener noreferrer">
-                {{ contact.value }}
-              </a>
-            </td>
-            <td v-else class="last-td">
-              {{ contact.value }}
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <h3>I'm Kentaro Fujita.</h3>
+      <h4>I'm a Master's student in computure science at Nara Institute of Science and Technology (NAIST). I belong to the <a href="http://www-lsm.naist.jp">kasahara Lab.</a></h4>
     </div>
   </section>
 </template>
@@ -28,14 +15,6 @@ export default {
   name: 'about',
   components: {
     pageTitle
-  },
-  data () {
-    return {
-      contacts: [
-        { key: 'Name', value: 'Kentaro Fujita', url: '' },
-        { key: 'Education', value: 'in M.Eng., Nara Institute of Science and Technology', url: '' }
-      ]
-    }
   }
 }
 </script>
